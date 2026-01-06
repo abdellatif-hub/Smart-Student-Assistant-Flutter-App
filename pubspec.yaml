@@ -1,0 +1,33 @@
+name: theme_dem_g1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  dio: ^5.4.0
+  retrofit: ^4.1.0
+  json_annotation: ^4.9.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  retrofit_generator: ^8.1.0
+  build_runner: ^2.4.8
+  json_serializable: ^6.8.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/profile.jpg
+
+
+
